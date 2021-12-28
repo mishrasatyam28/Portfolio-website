@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding-top: 144px;
+    padding: 0 73px;
+    margin: 20px;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    /* text-align: center; */
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+.contactform form div{
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        
+}
+.contactform form div input{
+        width: 50vh;
+        padding: 4px;
+        margin: 10px 0 0 0;
+       border-radius: 5px;
+       font-family: 'Fira Sans', sans-serif;                     /*   */
+        /* font-size: 15px;                               */
+}
+
+#emailHelp{
+        font-size: 13px;
+        color: midnightblue;
+        margin: 0 5px;
+        padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 30px;
+    margin: 3px 0;
+}
+.btn{
+    padding: 9px 18px;
+    border-radius:22px ;
+    color:white ;
+    background-color:dodgerblue ;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 10px 3px;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.btn:hover{
+    color:dodgerblue ;
+    background-color:white ;
+    color: rgb(173, 9, 238);
+}

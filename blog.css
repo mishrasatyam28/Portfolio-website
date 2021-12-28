@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+.blogitem{
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.blogcontainer h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+}
+
+.blogitem p{
+    font-family: 'Source Code Pro', monospace;
+}
+.btn{
+    padding: 6px 9px;
+    border-radius:22px ;
+    color:white ;
+    background-color:dodgerblue ;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 10px 3px;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.btn:hover{
+    color:dodgerblue ;
+    background-color:white ;
+    color: rgb(173, 9, 238);
+}
